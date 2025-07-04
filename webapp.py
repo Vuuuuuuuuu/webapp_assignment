@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import joblib
 
-df = pd.read_csv("beer-servings(1).csv")
+df = pd.read_csv("beer-servings.csv")
 print(df.head())
 print(df.shape)
 print(df.info())
